@@ -1,0 +1,9 @@
+.die{
+    color: rgb(122, 53, 250);
+    font-size: 5em;
+    padding: .25em;
+}
+
+.locked{
+    color: rgba(123, 116, 136, 0.651);
+}
