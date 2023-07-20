@@ -1,0 +1,22 @@
+.ScoreCard{
+    display: flex;
+    height: 1.5em;
+    background-color: rgba(250, 250, 250, 0.411);
+    padding: 0 1em;
+   
+}
+
+.ScoreCard-Desc{
+    text-align: left;
+    background-color: white;
+    min-width: 25%;
+    flex: 1 1 20em;
+
+
+}
+
+.ScoreCard-Rd{
+    border: solid 1px rgba(143, 142, 142, 0.479);
+    flex: 1 1 10em;
+
+}

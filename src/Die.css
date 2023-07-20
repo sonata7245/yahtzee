@@ -1,7 +1,9 @@
 .die{
-    color: rgb(122, 53, 250);
-    font-size: 5em;
+    color: rgb(245, 245, 245);
+    font-size: 3em;
     padding: .25em;
+    filter:drop-shadow(2px 10px 1px rgba(37,115,89,0.72))
+    /* text-shadow: 10px 14px 18px 0px rgba(37,115,89,0.72); */
 }
 
 .locked{

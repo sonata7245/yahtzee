@@ -1,0 +1,39 @@
+.Board{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Board-Dice{
+    background-color: rgb(50, 153, 119);
+    padding: 1em;    
+}
+
+.Board-Dice h1{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.Board-ScoreCard{
+    background-color: white;
+    width: 100%
+}
+
+.Board-ScoreCard h1{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.5rem;
+}
+
+.Board-ScoreCard h3{
+    margin-top: .25em;
+    margin-bottom: .25em;
+    font-size: 1rem;
+}
+
+
+
