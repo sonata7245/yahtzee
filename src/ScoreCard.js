@@ -10,14 +10,20 @@ class ScoreCard extends Component{
     recordScore(evt){
         this.props.recordScore(this.props.description, this.props.id)
     }
+
+    
     
     render(){
+        const scoreArray = this.props.scores.map(sc => sc)
         return (
+            
             <div className="ScoreCard">
-                <div className="ScoreCard-Desc">{this.props.description}:</div>
-                <div onClick={this.recordScore} className="ScoreCard-Rd">{this.props.round1}</div>
-                <div onClick={this.recordScore} className="ScoreCard-Rd">{this.props.round2}</div>
-                <div onClick={this.recordScore} className="ScoreCard-Rd">{this.props.round3}</div>
+                <div className="ScoreCard-Desc">{this.props.description}</div>
+                <div className="ScoreCard-Scores">
+                <div onClick={this.recordScore} className="ScoreCard-Rd">{scoreArray[0]}</div>
+                <div onClick={this.recordScore} className="ScoreCard-Rd">{scoreArray[1]}</div>
+                <div onClick={this.recordScore} className="ScoreCard-Rd">{scoreArray[2]}</div>
+                </div>
             </div>
         )
     }
